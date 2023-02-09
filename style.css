@@ -1,4 +1,10 @@
 /* Commnet */
+.navbar-brand {
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
 .carousel {
   margin-top: 3rem;
 }
@@ -36,10 +42,7 @@
 }
 
 .menu-container {
-
 }
 
 .menu-sect-1 {
-  
 }
-
