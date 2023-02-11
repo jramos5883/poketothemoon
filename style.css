@@ -37,6 +37,14 @@
   grid-row-end: 3;
 }
 
+.aboutus-container {
+  justify-content: center;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
+
 .header {
   text-align: center;
 }
