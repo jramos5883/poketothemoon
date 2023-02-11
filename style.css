@@ -1,9 +1,12 @@
 /* Commnet */
+/* Navbar */
 .navbar-brand {
   font-family: "Anton", sans-serif;
   font-size: 2rem;
   letter-spacing: 2px;
 }
+
+/* Home Page */
 
 .carousel {
   margin-top: 3rem;
@@ -49,8 +52,16 @@
   text-align: center;
 }
 
+/* Menu Page */
+
 .menu-header {
   margin-top: 4.5rem;
+  color: red;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }
 
 .menu-container {
@@ -59,14 +70,16 @@
 
   background-image: url("images/space_bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* Debating between fixed of scroll */
+  background-attachment: scroll;
   background-size: cover;
 }
 
 .menu-items {
   color: black;
   background-color: white;
-  opacity: 0.75;
+  opacity: 0.85;
+  line-height: 1.25;
 }
 
 .phone-col-1 {
@@ -77,6 +90,10 @@
 }
 
 .menu-sect-1 {
+}
+
+h3 {
+  color: red;
 }
 
 /* Footer Styles */
