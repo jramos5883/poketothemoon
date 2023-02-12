@@ -96,6 +96,14 @@ h3 {
   color: red;
 }
 
+/* Location Page */
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+}
+
 /* Footer Styles */
 .bd-placeholder-img {
   font-size: 1.125rem;
