@@ -41,11 +41,11 @@
 }
 
 .aboutus-container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin-left: 7rem;
-  margin-right: 7rem;
-  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .header {
