@@ -119,6 +119,7 @@ h3 {
   padding-left: 5%;
   padding-right: 5%;
   margin-top: 10%;
+  margin-bottom: 5%;
   line-height: 1rem;
 }
 
@@ -126,6 +127,17 @@ h3 {
 #map {
   height: 400px; /* The height is 400 pixels */
   width: 100%; /* The width is the width of the web page */
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.location-header {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
 }
 
 /* Footer Styles */
