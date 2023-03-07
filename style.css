@@ -1,5 +1,9 @@
 /* Commnet */
 /* Navbar */
+* {
+  box-sizing: border-box;
+}
+
 .navbar-brand {
   font-family: "Anton", sans-serif;
   font-size: 2rem;
@@ -91,20 +95,15 @@
   background-size: cover;
 }
 
+.menu-sect-spec {
+  padding-bottom: 1.25rem;
+}
+
 .menu-items {
   color: black;
   background-color: white;
   opacity: 0.85;
   line-height: 1.25;
-}
-
-.phone-col-1 {
-}
-
-.phone-col-2 {
-}
-
-.menu-sect-1 {
 }
 
 h3 {
@@ -130,14 +129,16 @@ h3 {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin-bottom: 1.25rem;
 }
 
 .location-header {
   text-align: center;
+  padding-bottom: 1.5rem;
 }
 
 .center {
-  text-align: center;
+  align-items: start;
 }
 
 /* Footer Styles */
